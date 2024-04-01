@@ -244,7 +244,7 @@
 }
 
 @media (width < 1024px) {
-  .main__text-block-1{
+  .main__text-block-1 {
     grid-template-columns: 256px 1fr;
     max-width: 768px;
   }
@@ -410,9 +410,9 @@ img {
   grid-row: span 2;
 }
 
-.section__image:nth-of-type(4) {
+/* .section__image:nth-of-type(4) {
 
-}
+} */
 
 /* .sea__image {
   grid-column: span 2;
