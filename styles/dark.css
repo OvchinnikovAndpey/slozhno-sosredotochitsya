@@ -9,4 +9,15 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --padding-hdr-footer: 20px;
+  --font-family: 'IBM Plex Mono';
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-size: 18px;
+  --accent-color: #ff0070;
+  --main-text-color: #f1b2ce;
+  --title-text-color: #db00ff;
+  --title-txt-block-clolor: #ff0070;
+  --accent-color-link: #000;
+  --background-image: url(/images/cover-image-dark.png);
 }
