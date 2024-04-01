@@ -16,7 +16,42 @@
   --background-image: url(/images/cover-image-dark.png);
 }
 
-/* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+/* Переключение темы от предпочтения пользовательского интерфейса */
+
+@media (prefers-color-scheme: dark) {
+  body {
+  --padding-hdr-footer: 20px;
+  --font-family: 'IBM Plex Mono';
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-size: 18px;
+  --accent-color: #ff0070;
+  --main-text-color: #f1b2ce;
+  --title-text-color: #db00ff;
+  --title-txt-block-clolor: #ff0070;
+  --accent-color-link: #000;
+  --background-color: #000028;
+  --background-image: url(/images/cover-image-dark.png);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+  --padding-hdr-footer: 20px;
+  --font-family: 'IBM Plex Mono';
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-size: 18px;
+  --accent-color: #ff8dcb;
+  --main-text-color: #353430;
+  --title-text-color: #ffc2e6;
+  --title-text-shadow: #ff0070;
+  --accent-color-link: #353430;
+  --title-txt-block-clolor: #353430;
+  --background-color: #fff1f7;
+  --background-image: url(/images/cover-image-light.png);
+  }
+} 
 
 .page {
   background-image: var(--background-image);
