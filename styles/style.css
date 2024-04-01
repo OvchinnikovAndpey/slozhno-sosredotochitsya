@@ -12,6 +12,7 @@
   --title-text-shadow: #ff0070;
   --accent-color-link: #000;
   --title-txt-block-clolor:#ff0070;
+  --background-color: #000028;
   --background-image: url(/images/cover-image-dark.png);
 }
 
@@ -19,6 +20,7 @@
 
 .page {
   background-image: var(--background-image);
+  background-color: var(--background-color);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
