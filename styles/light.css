@@ -49,8 +49,3 @@
   }
 }
 
-@media (prefers-color-scheme: light) {
-  .page.theme_light .decorative-rec-icon {
-    display: none;
-  }
-}
