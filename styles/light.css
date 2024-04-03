@@ -4,14 +4,14 @@
   переключая тему
 */
 
-  /* сохраните этот селектор в приведённом виде.
+/* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
 
 .page.theme_light {
   --padding-hdr-footer: 20px;
-  --font-family: 'IBM Plex Mono';
+  --font-family: 'IBM Plex Mono', sans-serif;
   --font-weight-regular: 400;
   --font-weight-bold: 700;
   --font-size: 18px;
@@ -23,9 +23,9 @@
   --title-txt-block-clolor: #353430;
   --background-color: #fff1f7;
   --background-image: url(/images/cover-image-light.png);
-  }
+}
 
-  @media {
+@media {
   .page.theme_light .decorative-rec-icon {
     display: none;
   }
