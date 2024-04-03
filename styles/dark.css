@@ -10,7 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --padding-hdr-footer: 20px;
-  --font-family: 'IBM Plex Mono', sans-serif;
+  --font-family: 'IBM Plex Mono', monospace;
   --font-weight-regular: 400;
   --font-weight-bold: 700;
   --font-size: 18px;
@@ -20,5 +20,7 @@
   --title-txt-block-clolor: #ff0070;
   --accent-color-link: #000;
   --background-color: #000028;
-  --background-image: url(/images/cover-image-dark.png);
+  --hover-color: rgba(255, 0, 112, 0.4);
+  --background-image: url(../images/cover-image-dark.png);
+  --rec-display: visible;
 }
